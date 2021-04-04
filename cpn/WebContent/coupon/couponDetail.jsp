@@ -280,12 +280,12 @@
 			<!-- 지도 -->
 			<div class="col-md-8 mx-auto">
 				<div id="map" style="width:100%;height:400px;"></div>
-				<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e18af39e1efd6472da5902d3b0365796"></script>
+				<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2dd180fbfd043e9b8037e9c7430f7950"></script>
 				<script>
 					var mapContainer = document.getElementById('map');
 					var mapOption = {
 						center: new kakao.maps.LatLng(<%=vo.getLatitude()%>,<%=vo.getLongitude()%>),
-						evel: 3
+						level: 3
 					};
 					var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 		
