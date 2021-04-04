@@ -4,7 +4,7 @@ public class util {
 	public static final int CUSTOMER=1;
 	public static final int STAFF=2;
 	
-	public static final String SAVE_DIR="C:\\Project02_ws\\cpn\\WebContent\\thumbnails"; //사진 저장경로
+	public static final String SAVE_DIR="C:\\Users\\82109\\git\\Couppong\\cpn\\WebContent\\thumbnails"; //사진 저장경로
 	
 	//권한번호 확인
 	public static boolean chkRig(int rigNo) {
